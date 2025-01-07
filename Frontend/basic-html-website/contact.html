@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Contact Page for HTML only website with multiple pages."
+    />
+    <meta
+      name="keywords"
+      content="roadmap.sh, Frontend project, HTML, website, CSS"
+    />
+    <meta name="author" content="Kyle Lee" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-logo">KYLE LEE</div>
+        <div class="nav-menu">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./articles.html">Articles</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="contact">
+        <form action="" class="contact-form">
+          <h2 class="section-title">Contact</h2>
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name"
+            required
+          />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your email"
+            required
+          />
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Your message"
+            required
+          ></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <footer><p class="copyright">&copy; all rights reserved 2025</p></footer>
+  </body>
+</html>
